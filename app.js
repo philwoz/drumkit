@@ -7,12 +7,11 @@ const ride = document.getElementById("ride")
 const snare = document.getElementById("snare")
 const tink = document.getElementById("tink")
 const tom = document.getElementById("tom")
-const animation = document.getElementById("animation")
+
 
 document.addEventListener("keydown", (event) => {
     if(event.key == "b"){
         boom.play()
-        animation.style
     } else if(event.key == "c"){
         clap.play()
     } else if(event.key == "h"){

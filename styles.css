@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(77, 75, 75);
+  background-color: black;
   
 }
 
@@ -23,7 +23,6 @@ body {
     flex-direction: column;
     align-items: center;
     color: gold;
-    animation: letter 1s ease-out 0 ;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -39,5 +38,6 @@ body {
       height:400px;
       padding-top: 5%;
       padding-left: 23%;
+      
       
     }
