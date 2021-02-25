@@ -7,6 +7,15 @@ const ride = document.getElementById("ride")
 const snare = document.getElementById("snare")
 const tink = document.getElementById("tink")
 const tom = document.getElementById("tom")
+const boomCard = document.getElementById("boom-cards")
+const clapCard = document.getElementById("clap-cards")
+const hithatCard = document.getElementById("hithat-cards")
+const kickCard = document.getElementById("kick-cards")
+const openhatCard = document.getElementById("openhat-cards")
+const rideCard = document.getElementById("ride-cards")
+const snareCard = document.getElementById("snare-cards")
+const tinkCard = document.getElementById("tink-cards")
+const tomCard = document.getElementById("tom-cards")
 
 
 document.addEventListener("keydown", (event) => {
@@ -31,5 +40,55 @@ document.addEventListener("keydown", (event) => {
     }
    
 })
+
+tomCard.addEventListener("click", () => {
+
+    tom.play()
+}
+) 
+tinkCard.addEventListener("click", () => {
+
+    tink.play()
+}
+) 
+snareCard.addEventListener("click", () => {
+
+    snare.play()
+}
+) 
+rideCard.addEventListener("click", () => {
+
+    ride.play()
+}
+) 
+openhatCard.addEventListener("click", () => {
+
+    openhat.play()
+}
+) 
+
+kickCard.addEventListener("click", () => {
+
+    kick.play()
+}
+) 
+
+hithatCard.addEventListener("click", () => {
+
+    hithat.play()
+}
+) 
+
+boomCard.addEventListener("click", () => {
+
+    boom.play()
+}
+) 
+
+clapCard.addEventListener("click", () => {
+
+    clap.play()
+}
+) 
 
 

@@ -4,6 +4,12 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
 }
+button {
+  background-color: transparent;
+  color: gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+}
 h1 {
   text-align: center;
 }
